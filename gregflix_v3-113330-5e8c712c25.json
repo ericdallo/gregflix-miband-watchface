@@ -1,0 +1,87 @@
+{
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 10,
+        "Y": 25,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 30,
+        "Y": 25,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 70,
+        "Y": 25,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 90,
+        "Y": 25,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "Number": {
+        "TopLeftX": 63,
+        "TopLeftY": 220,
+        "BottomRightX": 110,
+        "BottomRightY": 234,
+        "Alignment": "TopRight",
+        "Spacing": 1,
+        "ImageIndex": 20,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Status": {
+    "Battery": {
+      "Text": {
+        "TopLeftX": 0,
+        "TopLeftY": 0,
+        "BottomRightX": 0,
+        "BottomRightY": 0,
+        "Alignment": 0,
+        "Spacing": 0,
+        "ImageIndex": 0,
+        "ImagesCount": 0
+      },
+      "Icon": {
+        "X": 101,
+        "Y": 3,
+        "ImageIndex": 11,
+        "ImagesCount": 9
+      }
+    }
+  },
+  "Other": {
+    "Animation": {
+      "AnimationImage": {
+        "X": 0,
+        "Y": 93,
+        "ImageIndex": 30,
+        "ImagesCount": 40,
+        "X3": 0
+      },
+      "Speed": 5,
+      "RepeatCount": 10,
+      "x2": 100
+    }
+  }
+}
