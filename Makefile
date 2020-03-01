@@ -1,9 +1,15 @@
-MIBAND_WF_TOOL_CMD = wine ./MiBandWFTool/WatchFace.exe
+TOOL_VERSION = 1.4.2
 
-compile:
-	$(MIBAND_WF_TOOL_CMD) gregflix.json
+MIBAND_WF_TOOL_RAW_CMD = wine ./MiBandWFTool/$(TOOL_VERSION)/RawImageMode/WatchFace.exe
+MIBAND_WF_TOOL_PALETTE_CMD = wine ./MiBandWFTool/$(TOOL_VERSION)/PaletteImageMode/WatchFace.exe
+
+compile-raw:
+	$(MIBAND_WF_TOOL_RAW_CMD) gregflix.json
+
+compile-palette:
+	$(MIBAND_WF_TOOL_PALETTE_CMD) gregflix.json
 
 decompile:
-	$(MIBAND_WF_TOOL_CMD) *.bin
+	$(MIBAND_WF_TOOL_PALETTE_CMD) *.bin
 
-.PHONY: from-json to-json
+.PHONY: compile-raw compile-palette decompile
